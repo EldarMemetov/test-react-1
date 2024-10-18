@@ -1,0 +1,153 @@
+.calendarContainer {
+  margin: 0 auto;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.containerDay {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 21px;
+}
+
+.selectedDay {
+  font-weight: bold;
+  font-size: 24px;
+  color: #2f2f2f;
+  text-align: left;
+}
+
+.monthYear {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.month {
+  font-size: 16px;
+  margin: 0 5px;
+  color: #407bff;
+}
+
+.year {
+  font-size: 16px;
+  margin: 0 5px;
+  color: #407bff;
+}
+
+.prevButton,
+.nextButton {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+  outline: none;
+}
+.prevButton:focus,
+.nextButton:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.prevButton svg,
+.nextButton svg {
+  width: 14px;
+  height: 14px;
+  fill: #407bff;
+}
+
+.daysList {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px 26px;
+  justify-content: center;
+  padding: 0;
+  list-style-type: none;
+  justify-items: center;
+}
+
+.dayItem {
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2f2f2f;
+  background-color: #fff;
+}
+.percentageText {
+  color: #9ebbff;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .daysList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 34px 24px;
+  }
+
+  .dayItem {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .calendarContainer {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1440px) {
+  .daysList {
+    justify-content: space-between;
+    gap: 22px 22px;
+  }
+}
+
+.dayItem {
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2f2f2f;
+  background-color: #fff;
+  border: 2px solid transparent;
+}
+
+.lowPercentage {
+  border: 2px solid #ff9d43;
+}
+
+.fullPercentage {
+  border: 2px solid #ffffff;
+}
+
+.percentageText {
+  margin-top: 4px;
+}
+
+.zeroPercentage {
+  border: 2px solid #ffffff;
+}

@@ -1,0 +1,74 @@
+.calendarContainer {
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ecf2ff;
+}
+
+.header {
+  text-align: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Используем space-between для равномерного распределения */
+  margin-bottom: 10px;
+}
+
+.selectedDay {
+  font-weight: bold; /* Выделение выбранного дня */
+  margin-right: 10px; /* Отступ справа от дня */
+  font-size: 24px;
+}
+
+.monthYear {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.month {
+  font-size: 16px; /* Размер шрифта для месяца */
+  margin: 0; /* Убираем отступы */
+  font-weight: Roboto;
+}
+
+.year {
+  font-size: 16px; /* Размер шрифта для года */
+  margin: 0; /* Убираем отступы */
+  font-weight: Roboto;
+}
+
+.prevButton,
+.nextButton {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 14px; /* Размер иконки */
+}
+
+.daysList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.dayItem {
+  cursor: pointer;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

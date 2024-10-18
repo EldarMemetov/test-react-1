@@ -1,0 +1,51 @@
+.listItem {
+  display: flex;
+  align-items: center;
+}
+
+.listContainer {
+  max-height: 200px;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.emptyState {
+  height: 200px;
+}
+
+.addButtonContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.addButton {
+  border: none;
+  background: none;
+  color: #407bff;
+  font-size: 18px;
+  cursor: pointer;
+  margin-right: 5px;
+  line-height: 1;
+  padding: 0;
+  outline: none;
+}
+
+.addButton:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.addText {
+  color: #407bff;
+  font-size: 18px;
+}
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding: 5px;
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "percentage": 50
+  },
+  {
+    "id": 2,
+    "percentage": 50
+  },
+  {
+    "id": 3,
+    "percentage": 100
+  },
+  {
+    "id": 4,
+    "percentage": 10
+  },
+  {
+    "id": 5,
+    "percentage": 10
+  },
+  {
+    "id": 6,
+    "percentage": 100
+  },
+  {
+    "id": 7,
+    "percentage": 100
+  },
+  {
+    "id": 8,
+    "percentage": 100
+  },
+  {
+    "id": 9,
+    "percentage": 20
+  }
+]
